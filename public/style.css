@@ -1,0 +1,27 @@
+/* Gabriel Barba */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.6fr 0.4fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+}
+
+.message {
+  max-width: 200px;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.05fr;
+  gap: 1px 1px;
+  height: 610px;
+}
+
+#msgbox {
+  overflow: auto;
+}

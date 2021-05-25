@@ -1,0 +1,29 @@
+<!-- Gabriel Barba -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myChat</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <h3 class="navbar-brand" >Chat</h3>
+        <h3 class="navbar-brand" id="conexiones" >Conexiones: </h3>
+    </nav>
+    <div class="grid">
+        <div id="msgbox">
+
+        </div>
+        <div class="grid-container">
+            <input autocomplete="off" type="text" name="mensaje" id="input-message" class="form-control" placeholder="Mensaje">
+            <button class="btn btn-primary" id="btn-send">Enviar</button>
+        </div>
+    </div>
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
