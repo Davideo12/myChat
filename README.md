@@ -10,3 +10,8 @@ Podriamos considerarlo comouna red estrella
 ## Funcionamiento
 Para esta aplicacion web utilizamos web sockets, esto permite cambios en tiempo real
 La aplicacion esta alojada en un servidor de heroku 
+
+## Aplicacion
+https://mychat-4clau.herokuapp.com/
+
+Al entrar al sitio pide que ingrese un username, posteriormente en la parte de abajo se encuentra el cuadro para escribir y el boton de enviar
